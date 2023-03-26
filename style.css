@@ -212,7 +212,7 @@
     justify-content: space-between;
     align-items: flex-start; */
     margin-left: 275px;
-    margin-top: 300px;
+    margin-top: 30px;
     height: 30px;
     width: 250px;
 }
@@ -263,7 +263,6 @@
     text-decoration: none;
     padding: 0 1rem;
 }
-
 /* Separate Forum Page */
 .header2 {
     text-align: center;

@@ -4,14 +4,18 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title> Teacher Forum </title>
+    <title>EducateUS</title>
+    <link rel="icon" type="image/x-icon" href="./favicon.ico">
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <!-- Navigation Bar -->
     <nav class="navbar">
         <div class="navbar__container">
-            <a href="/" id="navbar__logo">EducateUS</a> <!-- change -->
+            <!-- <a href="/" id="navbar__logo">EducateUS</a> --> <!-- change -->
+            <a href="./index.html" class="navbar__container">
+                <img src="images/Header.png" alt="EducateUS" href="./index.html">
+            </a>
             <div class="navbar__toggle" id="mobile-menu">
                 <span class="bar"></span>
                 <span class="bar"></span>
@@ -19,10 +23,16 @@
             </div>
             <ul class="navbar__menu">
                 <li class="navbar__item">
-                    <a href="/" class="navbar__links">Home</a>
+                    <a href="index.html" class="navbar__links">Home</a>
                 </li>
-                <li class="navbar__item">
-                    <a href="/" class="navbar__links">Grade Levels</a>
+                <li class="dropdown">
+                    <!-- <a href="/" class="navbar__links">Grade Levels</a> -->
+                    <button class="dropbtn"> Grade Level </button>
+                    <div class="dropdown-content">
+                        <a href="#">Elementary School</a>
+                        <a href="#">Middle School</a>
+                        <a href="./grades.html">High School</a>
+                      </div>
                 </li>
                 <li class="navbar__item">
                     <a href="/" class="navbar__links">Connect</a>
@@ -31,7 +41,7 @@
                     <a href="/" class="navbar__links">Forums</a>
                 </li>
                 <li class="navbar__btn">
-                    <a href="/" class="button">Login</a>
+                    <a href="./login.html" class="button">Login</a>
                 </li>
             </ul>
         </div>
